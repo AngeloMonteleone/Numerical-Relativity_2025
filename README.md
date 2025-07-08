@@ -1,7 +1,18 @@
 # Numerical-Relativity_2025
 Repository for the 2024-25 course in Numerical Relativity. The repository is organized as follows
 ## Homework 1
-
+There is one repository for each exercise of the Assignement (Homework 1.1, Homework 1.2, Homework 1.3).
+### Homework 1.1 and 1.2
+- Scripts
+  - "Study_advection.py" This is used to plot the evolution of the function at some given instants and the evolution of the norm.
+  - "Repeated_advection.py" This is used to compare the results for different courant factors. The output is a single plot with the evolution of the norm for the different $$C_f$$ values.
+  - "makeani.py" Script used to animate the evolution of the function. It can be used either to plot a live animation while the integration is going or to produce a GIF with the evolution of the function over time. 
+- There are also different directories containing the images used for the assignments and some example animations.
+### Homework 1.3
+- Scripts
+  - "Study_burgers.py" This is used to plot the evolution of the function at some given instants.
+  - "makeani.py" Script used to animate the evolution of the function. It can be used either to plot a live animation while the integration is going or to produce a GIF with the evolution of the function over time. 
+- There are also different directories containing the images used for the assignments and some example animations.
 ## Homework 2
 There are two repositories, one for the first excercise (the SOD shock tube) and one for the second (the simulation of a stable TOV solution)
 ### SOD
